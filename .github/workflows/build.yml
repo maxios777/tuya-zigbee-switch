@@ -2,6 +2,9 @@ name: Build Firmware
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write  
 #  push:
 #    branches:
 #      - main
