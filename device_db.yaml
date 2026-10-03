@@ -32,9 +32,9 @@ ZIGBEE_4GANG_REMOTE_TS0044_TLSR8253:
   info: Custom pinout from user tracing. 4-button remote with TLSR8253 chip.
   config_str: wkai4ga5;TS0044-CUS;LC0;BA0u;BB1u;BD1u;BC0u;M;PwrCR2032;ED;NR;
   alt_config_str: null
-  #tuya_manufacturer_id: 4417
-  #tuya_image_type: 54179
-  #firmware_image_type: 43563
+  tuya_manufacturer_id: 4417
+  tuya_image_type: 54179
+  firmware_image_type: 43563
 
 
 
