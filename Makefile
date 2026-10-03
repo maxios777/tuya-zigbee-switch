@@ -52,14 +52,14 @@ help:
 	@echo "  make_scripts/make_all.sh     - Build all devices (CI pipeline equivalent)"
 	@echo ""
 	@echo "Setup and Environment:"
-	@echo "  make setup           - Install all tools and setup Python venv"
+	@echo "  make setup           - Install Telink tools and setup Python venv"
 	@echo "  make setup_venv      - Setup Python virtual environment only"
 	@echo ""
 	@echo "For detailed help on specific targets:"
 	@echo "  make board/help        - Show device database build system help"
 	@echo "  make silabs/help       - Show Silicon Labs build system help"
 	@echo "  make silabs/tools/help - Show Silicon Labs tools help"
-	@echo "  make telink/help       - Show Telink build system help" 
+	@echo "  make telink/help       - Show Telink build system help"
 	@echo "  make telink/tools/help - Show Telink tools help"
 	@echo "  make stub/help         - Show stub device build system help"
 	@echo ""
@@ -95,8 +95,8 @@ setup_venv:
 	python3 -m venv .venv
 	. .venv/bin/activate && pip install -r requirements.txt
 
-setup: silabs/tools/all telink/tools/all setup_venv
+# Setup only Telink tools and Python environment
+setup: telink/tools/all setup_venv
 
-
-# Define available targets for help
+# Define available targets
 .PHONY: help setup setup_venv stub/% silabs/% telink/% tests tools/% board/% format
