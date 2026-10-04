@@ -41,6 +41,6 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 
 | 🚧 | 📦 | 💡 | ⚡️ | 📲 |  🏭  | Zb&nbsp;Manufacturer <br> Zb&nbsp;Model | Name <br> Z2M&nbsp;page&nbsp;🔗 | Store | Threads | Status |
 | -- | -- | -- | -- | -- | :--: | :-------------------------------------- | :------------------------------ | ----: | ------: | :----- |
-|  | ✔️ | 🇷 | 🔋 | 🛜 | **TL** | `unknown` <br>  | [Wireless switch with 4 buttons (Custom)](https://www.zigbee2mqtt.io/devices/TS0044.html) |   |   | Custom pinout from user tracing. 4-button remote with TLSR8253 chip. | 
+| 🟩 | ✔️ | 🇷 | 🔋 | 🛜 | **TL** | `_TZ3000_wkai4ga5` <br> `TS0044` | [Wireless switch with 4 buttons](https://www.zigbee2mqtt.io/devices/TS0044.html) |   | [`#237`](https://github.com/romasku/tuya-zigbee-switch/issues/237) | Supported | 
 
 Data from [`device_db.yaml`](/device_db.yaml)

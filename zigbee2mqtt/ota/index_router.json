@@ -1,14 +1,29 @@
 [
   {
-    "fileName": "tlc_switch-1.1.3-765a3e44.zigbee",
+    "fileName": "tlc_switch-1.1.3-4156061e.zigbee",
     "fileVersion": 285421568,
     "fileSize": 182226,
-    "url": "https://github.com/maxios777/tuya-zigbee-switch/raw/ee84df8a5127687d6bddb5691a59208be69f365d/bin/router/ZIGBEE_4GANG_REMOTE_TS0044_TLSR8253/tlc_switch-1.1.3-765a3e44.zigbee",
-    "imageType": 43563,
+    "url": "https://github.com/maxios777/tuya-zigbee-switch/raw/refs/heads/main/bin/router/REMOTE_HOBEIAN_TS0044/tlc_switch-1.1.3-4156061e.zigbee",
+    "imageType": 43628,
     "manufacturerCode": 4417,
-    "sha512": "3befb5e00cf4fc2f50ce506b51e80534e39854ffb3e886169b0589f7065dad7412d0c26d23060132167d62ba452cc15727c92e4cab05383f98c2c94a8b9f27df",
+    "sha512": "cf307e7b38d16038d3b351555d24d3756efc1053ef71a37ec99451d8647412369f751c2be1c94a8c6e0d4289e140e5adc4bff0bcabbe09d1ebf0cedbbc2fbe5a",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
+      "_TZ3000_wkai4ga5",
+      "wkai4ga5"
+    ]
+  },
+  {
+    "fileName": "tlc_switch-1.1.3-4156061e-from_tuya.zigbee",
+    "fileVersion": 4294967295,
+    "fileSize": 182226,
+    "url": "https://github.com/maxios777/tuya-zigbee-switch/raw/refs/heads/main/bin/router/REMOTE_HOBEIAN_TS0044/tlc_switch-1.1.3-4156061e-from_tuya.zigbee",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "9a7fb0779bd2630e2458fc80bd3d830c726c12dd5c012dce82c485dd26e99ccb5ddbdefe1ee2734ad50818d36896bf85c58b4af26b2e36cb76cea6270363e3e3",
+    "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "_TZ3000_wkai4ga5",
       "wkai4ga5"
     ]
   }
